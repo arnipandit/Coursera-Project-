@@ -1,100 +1,57 @@
 # Coursera-Project-
-🚀 SpaceX Launch Data Analysis using API
-📌 Overview
+Falcon 9 First-Stage Landing Prediction – Capstone Project
+Project Overview
 
-This repository contains a series of Jupyter notebooks focused on collecting, cleaning, and analyzing SpaceX launch data using the SpaceX public API.
-The project is part of a hands-on learning exercise to understand API-based data collection, data wrangling, and exploratory data analysis (EDA) using Python.
+This project analyzes historical SpaceX Falcon 9 launch data to predict first-stage landing success using data analysis, visualization, and machine learning classification models.
 
-The workflow follows a structured, real-world data science pipeline—from raw API responses to a cleaned analytical dataset ready for visualization and modeling.
+Repository Structure
 
-📂 Repository Structure
-├── API Lab 1.ipynb
-├── API Lab 2.ipynb
-├── API Lab 3.ipynb
-└── README.md
+API Lab 1.ipynb – Data collection using SpaceX REST API
 
-🔹 API Lab 1 – Data Collection
+API Lab 2.ipynb – Web scraping landing outcome data
 
-Connects to the SpaceX public API
+API Lab 3.ipynb – Data wrangling and preprocessing
 
-Fetches launch data in JSON format
+API Lab 4.ipynb – Exploratory Data Analysis (EDA) with visualization
 
-Converts API responses into Pandas DataFrames
+API Lab 5.ipynb – SQL-based exploratory analysis
 
-Introduces API requests, JSON parsing, and normalization
+API Lab 6.ipynb – Predictive analysis using ML models
 
-🔹 API Lab 2 – Data Wrangling & Feature Engineering
+Methodology
 
-Cleans and filters launch data
+Collected data via SpaceX API and web scraping
 
-Handles nested JSON structures (cores, payloads, launch sites)
+Cleaned and processed data for analysis
 
-Extracts key features such as:
+Performed EDA using SQL and visualizations
 
-Booster version
+Built interactive maps (Folium) and dashboards (Plotly Dash)
 
-Payload details
+Trained and evaluated Logistic Regression, Decision Tree, and SVM models
 
-Launch site information
+Results
 
-Launch dates
+Landing success depends on payload mass, orbit type, launch site, and flight number
 
-Removes irrelevant or inconsistent records
+SVM achieved the highest accuracy
 
-🔹 API Lab 3 – Data Preparation for Analysis
+Model reliably predicts landing success for cost estimation
 
-Finalizes the cleaned dataset
+Tools & Technologies
 
-Applies logical filters (e.g., date restrictions, valid launches)
+Python • Pandas • SQL • Matplotlib • Seaborn • Folium • Plotly Dash • Scikit-learn
 
-Prepares data for exploratory analysis and visualization
+Usage
 
-Ensures consistency and correctness of features
+Run notebooks in order (API Lab 1 → API Lab 6) to reproduce the full analysis and results.
 
-🛠️ Technologies Used
+If you want, I can also:
 
-Python
+Make this Coursera-peer-review perfect
 
-Pandas
+Add badges + screenshots
 
-Requests
+Write a 1-paragraph repo description
 
-Jupyter Notebook
-
-SpaceX REST API
-
-🎯 Key Learning Outcomes
-
-Working with REST APIs in Python
-
-Handling complex and nested JSON data
-
-Converting raw API data into structured datasets
-
-Applying data cleaning and preprocessing techniques
-
-Understanding differences between API versions and schemas
-
-Building reusable, analysis-ready datasets
-
-📊 Use Case
-
-This project demonstrates how real-world datasets are rarely clean or flat and highlights the importance of:
-
-Schema inspection
-
-Defensive coding
-
-Version-aware API usage
-
-Step-by-step data preparation
-
-The processed dataset can be further used for:
-
-Exploratory Data Analysis (EDA)
-
-Data visualization
-
-Machine learning modeling
-
-Predictive analysis of launch success
+Generate a professional GitHub repo name
